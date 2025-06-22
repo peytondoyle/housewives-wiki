@@ -3,9 +3,45 @@
 <head>
     <title>My Wiki</title>
     <link rel="stylesheet" href="styles.css">
+    <div id="navbar-placeholder"></div>
+
+      <script>
+        // Fetch and insert the navigation bar
+        fetch('navbar.html')
+            .then(response => response.text())
+            .then(navbarHtml => {
+                document.getElementById('navbar-placeholder').innerHTML = navbarHtml;
+            })
+            .catch(error => console.error('Error fetching navbar:', error));
+      </script>
 </head>
 <body>
+
+
     <h1>Welcome to My Wiki</h1>
     <p>This is a simple wiki project.</p>
+    <a href="add-housewife.html">Add a New Housewife</a>
+    <!-- Link to the "See all housewives" page --><BR>
+    <a href="/housewives">See all housewives</a>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        fetch('/pages')
+          .then(response => response.json())
+          .then(pages => {
+            const pagesList = document.createElement('ul');
+            pages.forEach(page => {
+              const listItem = document.createElement('li');
+              const link = document.createElement('a');
+              link.href = `/pages/${page.id}`;
+              link.textContent = page.title;
+              listItem.appendChild(link);
+              pagesList.appendChild(listItem);
+            });
+            document.body.appendChild(pagesList);
+          })
+          .catch(error => console.error('Error fetching pages:', error));
+      });
+    </script>
+
 </body>
 </html>
