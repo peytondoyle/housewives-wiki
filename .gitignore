@@ -1,0 +1,11 @@
+node_modules
+.DS_Store
+.vercel
+.env.vercel.*
+.env
+.env.local
+.env.*.local
+.env.*.backup
+.next/
+next-env.d.ts
+supabase/.temp/

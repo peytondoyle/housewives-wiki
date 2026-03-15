@@ -1,0 +1,592 @@
+/* Body reset (from original index.css) */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  text-align: center;
+}
+
+/* Gradient header on all pages */
+.header {
+  padding: 2vw;
+  background-image: linear-gradient(to right, #00afce, #ef9db3);
+}
+
+/* Gradient sidebar when menu is active */
+.sidebar {
+  background-image: linear-gradient(to bottom, #00afce, #ef9db3);
+  height: 100vh;
+  width: 4vw;
+  float: left;
+}
+
+/* Home page styling */
+h1 {
+  font-family: canada-type-gibson, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  color: #000000;
+  font-size: 12vw;
+  line-height: 9vw;
+}
+
+#title {
+  display: inline-block;
+  text-align: left;
+  margin-top: 1vw;
+  margin-bottom: 0px;
+}
+
+#maintitle {
+  text-align: center;
+}
+
+#subtitle {
+  font-family: canada-type-gibson, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  color: #000000;
+  font-size: 3vw;
+  line-height: 3.25vw;
+  width: 72vw;
+  padding-left: 12vw;
+  padding-right: 15vw;
+  text-align: left;
+}
+
+hr {
+  width: 73vw;
+  height: 0.7vw;
+  margin: 0 auto;
+  padding: 0;
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+  background-color: #000000;
+  border: none;
+}
+
+.psubtitle {
+  margin: 0px;
+}
+
+.psubtitle em {
+  background: linear-gradient(to right, #00afce, #ef9db3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-style: normal;
+}
+
+/* Menu styling */
+.menubutton {
+  position: static;
+  padding-top: 3vw;
+  padding-left: 83vw;
+  display: inline-block;
+  justify-content: center;
+  border: 0px;
+}
+
+.menubuttonimage {
+  height: auto;
+  width: 18%;
+  cursor: pointer;
+}
+
+/* CSS hamburger icon */
+.hamburger {
+  width: 3vw;
+  height: 2.2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.hamburger span {
+  display: block;
+  height: 0.4vw;
+  background: #000;
+  border-radius: 0.2vw;
+  transition: all 0.3s ease;
+}
+
+.hamburger.open span:nth-child(1) {
+  transform: translateY(0.9vw) rotate(45deg);
+}
+
+.hamburger.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.open span:nth-child(3) {
+  transform: translateY(-0.9vw) rotate(-45deg);
+}
+
+#menucities {
+  font-family: canada-type-gibson, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  color: #000000;
+  font-size: 2.5vw;
+  line-height: 0.5vw;
+  text-align: left;
+}
+
+#menucities:hover {
+  color: #00afce;
+}
+
+#menuitems {
+  font-family: canada-type-gibson, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  color: #000000;
+  font-size: 4.0vw;
+  line-height: 1vw;
+  text-align: right;
+}
+
+#menuitems:hover {
+  color: #ef9db3;
+}
+
+#menuleft {
+  padding-left: 18vw;
+}
+
+#menuright {
+  padding-right: 18vw;
+}
+
+#hrmenu {
+  width: 30vw;
+  height: 0.7vw;
+  margin: 0 auto;
+  padding: 0;
+  margin-top: 0vw;
+  margin-right: 100vw;
+  background-color: #000000;
+  border: none;
+}
+
+.menulinks {
+  text-decoration: none;
+}
+
+/* Menu grid layout (replacing MUI Grid) */
+.menu-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  padding: 2vw 0;
+}
+
+/* Styling for index page */
+p.filterbuttontext {
+  font-family: canada-type-gibson, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 1.5vw;
+  line-height: 1vw;
+  text-align: center;
+  margin: 0px;
+}
+
+#filters {
+  height: 1vw;
+  width: 8vw;
+  padding: 1vw;
+  background-image: linear-gradient(to right, #00afce, #ef9db3);
+  margin-left: 2.7vw;
+  margin-right: 2.7vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  border-radius: 1vw;
+  cursor: pointer;
+}
+
+.filterwrapper {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2vw;
+}
+
+.indexcard {
+  text-align: center;
+}
+
+.housewifeindeximg {
+  object-fit: cover;
+  object-position: 50% 0;
+  width: 15vw;
+  height: 30vw;
+  border: 0px;
+  border-style: solid;
+  margin-right: 0.5vw;
+}
+
+.housewifeindeximg:hover {
+  opacity: 75%;
+  transition: 0.5s ease;
+}
+
+h5 {
+  font-family: canada-type-gibson, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 1.5vw;
+  line-height: 1.75vw;
+  margin: 0px;
+  text-align: center;
+  background: linear-gradient(to right, #00afce, #ef9db3);
+  text-decoration: none;
+}
+
+h6 {
+  font-family: canada-type-gibson, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 0.9vw;
+  line-height: 1.0vw;
+  margin: 0px;
+  text-align: center;
+  background: linear-gradient(to right, #00afce, #ef9db3);
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+/* Housewives grid (replacing MUI Grid xs={3}) */
+.housewives-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+  width: 71%;
+  margin: 0 auto;
+  margin-top: -1.3vw;
+}
+
+/* Show page styling */
+h2 {
+  font-family: canada-type-gibson, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  color: #000000;
+  font-size: 8vw;
+  line-height: 9vw;
+}
+
+#housewifeimg {
+  display: contents;
+  padding-top: 10vw;
+  padding-right: 10vw;
+  margin-bottom: 0px;
+}
+
+#housewifetitle {
+  display: contents;
+}
+
+#housewifesubtitle {
+  display: block;
+}
+
+.housewifeshowimg {
+  object-fit: cover;
+  object-position: 50% 0;
+  width: 20vw;
+  height: 42vw;
+  border: 0px;
+  border-style: solid;
+  margin-right: 0.5vw;
+}
+
+/* h8 → .h8 (non-standard element) */
+.h8 em {
+  font-family: canada-type-gibson, sans-serif;
+  display: inline;
+  font-weight: 900;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 1.5vw;
+  text-align: left;
+  margin-left: 0px;
+  text-align: center;
+  background: linear-gradient(to right, #00afce, #ef9db3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 120%;
+}
+
+.h8 {
+  font-family: canada-type-gibson, sans-serif;
+  display: inline-block;
+  font-weight: 900;
+  font-style: normal;
+  color: #000000;
+  font-size: 1.2vw;
+  line-height: 120%;
+  text-align: left;
+  text-decoration: none;
+}
+
+.item {
+  display: inline-block;
+}
+
+.item + .item::before {
+  display: inline-block;
+  white-space: pre;
+  content: ", ";
+}
+
+p#heart {
+  margin-top: 0.3vw;
+  margin-bottom: 0.3vw;
+}
+
+.heartimg {
+  background-color: transparent;
+  width: 2vw;
+  cursor: pointer;
+}
+
+#showpagebuttons {
+  font-family: canada-type-gibson, sans-serif;
+  display: inline-flex;
+  font-weight: 900;
+  padding: 0.75vw;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 1.4vw;
+  text-align: center;
+  background: linear-gradient(to right, #00afce, #ef9db3);
+  font-style: normal;
+  text-decoration: none;
+  line-height: 100%;
+  border-radius: 1vw;
+  cursor: pointer;
+}
+
+#taglines {
+  font-family: canada-type-gibson, sans-serif;
+  display: block;
+  font-weight: 300;
+  font-style: normal;
+  color: #000000;
+  font-size: 1vw;
+  line-height: 20%;
+  text-align: left;
+  text-decoration: none;
+}
+
+#hwgifs {
+  object-fit: cover;
+  object-position: 50% 0;
+  width: 15vw;
+  height: 9.375vw;
+  border: 0px;
+  border-style: solid;
+  margin-right: 0.5vw;
+  margin-bottom: 0.5vw;
+}
+
+#hwicon {
+  object-fit: cover;
+  object-position: 50% 0;
+  display: block;
+  width: 15%;
+  max-height: 10vw;
+  border: 0px;
+  border-style: solid;
+  margin-bottom: -2vw;
+}
+
+#housewifeinfo span {
+  font-family: canada-type-gibson, sans-serif;
+  display: inline;
+  font-weight: 900;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 1.5vw;
+  margin-left: 0px;
+  text-align: center;
+  background: linear-gradient(to right, #00afce, #ef9db3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 120%;
+}
+
+#tagline span {
+  font-family: canada-type-gibson, sans-serif;
+  display: inline-block;
+  font-weight: 900;
+  font-style: normal;
+  color: #000000;
+  font-size: 1.2vw;
+  line-height: 120%;
+  text-align: left;
+  text-decoration: none;
+}
+
+#housewifeinfotitle {
+  margin-bottom: 0.5vw;
+  margin-top: 2vw;
+  text-align: left;
+}
+
+/* Comment styles */
+.comment {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font: 15px/1 "Open Sans", sans-serif;
+  color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  max-width: 46vw;
+  background: linear-gradient(to right, #00afce, #ef9db3);
+  opacity: 85%;
+  border: none;
+  padding: 1vw;
+  border-radius: 1vw;
+  box-shadow: none;
+  outline: none;
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: canada-type-gibson, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 1.2vw;
+  line-height: 120%;
+  text-decoration: none;
+}
+
+input#commentInput.comment {
+  margin-bottom: 1vw;
+}
+
+#commentsubmit {
+  height: 3vw;
+  width: 15vw;
+  border-radius: 1vw;
+  margin-bottom: 2vw;
+  text-align: center;
+  font-family: canada-type-gibson, sans-serif;
+  display: inline-block;
+  font-weight: 900;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 1.2vw;
+  line-height: 120%;
+  text-decoration: none;
+  background-color: #ef9db3;
+  border: 0px;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+#commentdiv {
+  padding-bottom: 2vw;
+}
+
+p#comments {
+  margin: 0vw;
+  padding-top: 0.5vw;
+}
+
+/* h10 → .h10 (non-standard element) */
+.h10 {
+  font-family: canada-type-gibson, sans-serif;
+  display: flex;
+  font-weight: 900;
+  font-style: normal;
+  color: #000000;
+  font-size: 1.2vw;
+  line-height: 120%;
+  text-align: left;
+  text-decoration: none;
+}
+
+::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+/* Show page two-column layout (replacing MUI Grid) */
+.show-page-layout {
+  display: grid;
+  grid-template-columns: 1fr 3fr 7fr 1fr;
+  gap: 24px;
+  padding: 0 0 0 0;
+}
+
+.show-page-lower {
+  display: grid;
+  grid-template-columns: 1fr 1fr 7fr 1fr;
+  gap: 24px;
+  padding: 0;
+}
+
+.show-page-lower-content {
+  text-align: left;
+}
+
+.show-page-image {
+  text-align: center;
+  padding: 0;
+}
+
+.show-page-info {
+  text-align: left;
+  padding-top: 17vw;
+}
+
+#regretComment {
+  font-family: canada-type-gibson, sans-serif;
+  display: block;
+  font-weight: 300;
+  font-style: normal;
+  color: #000000;
+  font-size: 0.70vw;
+  line-height: 20%;
+  margin-top: -.25vw;
+  text-align: left;
+  font-style: oblique;
+  text-decoration: none;
+}
+
+#comments {
+  font-family: canada-type-gibson, sans-serif;
+  display: flex;
+  font-weight: 300;
+  font-style: normal;
+  color: #000000;
+  font-size: 1vw;
+  line-height: 20%;
+  text-align: left;
+  text-decoration: none;
+}

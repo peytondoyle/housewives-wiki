@@ -1,0 +1,55 @@
+-- Update housewife images to local public/ paths
+UPDATE housewives SET image = '/housewives/hw-5.png' WHERE id = 5; -- DeShawn Snow
+UPDATE housewives SET image = '/housewives/hw-20.png' WHERE id = 20; -- Lisa Vanderpump
+UPDATE housewives SET image = '/housewives/hw-34.png' WHERE id = 34; -- Stephanie Hollman
+UPDATE housewives SET image = '/housewives/hw-35.png' WHERE id = 35; -- LeeAnne Locken
+UPDATE housewives SET image = '/housewives/hw-36.png' WHERE id = 36; -- Brandi Redmond
+UPDATE housewives SET image = '/housewives/hw-49.png' WHERE id = 49; -- Larsa Pippen
+UPDATE housewives SET image = '/housewives/hw-54.png' WHERE id = 54; -- Karent Sierra
+UPDATE housewives SET image = '/housewives/hw-72.png' WHERE id = 72; -- Alex McCord
+UPDATE housewives SET image = '/housewives/hw-88.png' WHERE id = 88; -- Jeana Keough
+UPDATE housewives SET image = '/housewives/hw-89.png' WHERE id = 89; -- Lauri Peterson
+UPDATE housewives SET image = '/housewives/hw-93.png' WHERE id = 93; -- Lynne Curtin
+UPDATE housewives SET image = '/housewives/hw-99.png' WHERE id = 99; -- Shannon Beador
+UPDATE housewives SET image = '/housewives/hw-47.png' WHERE id = 47; -- Marysol Patton
+UPDATE housewives SET image = '/housewives/hw-74.webp' WHERE id = 74; -- Jill Zarin
+UPDATE housewives SET image = '/housewives/hw-7.webp' WHERE id = 7; -- Cynthia Bailey
+UPDATE housewives SET image = '/housewives/hw-8.webp' WHERE id = 8; -- Phaedra Parks
+UPDATE housewives SET image = '/housewives/hw-9.webp' WHERE id = 9; -- Porsha Williams
+UPDATE housewives SET image = '/housewives/hw-10.webp' WHERE id = 10; -- Kenya Moore
+UPDATE housewives SET image = '/housewives/hw-14.webp' WHERE id = 14; -- Shamari DeVoe
+UPDATE housewives SET image = '/housewives/hw-16.webp' WHERE id = 16; -- Camille Grammer
+UPDATE housewives SET image = '/housewives/hw-25.webp' WHERE id = 25; -- Lisa Rinna
+UPDATE housewives SET image = '/housewives/hw-28.webp' WHERE id = 28; -- Kathryn Edwards
+UPDATE housewives SET image = '/housewives/hw-30.webp' WHERE id = 30; -- Teddi Mellencamp Arroyave
+UPDATE housewives SET image = '/housewives/hw-31.webp' WHERE id = 31; -- Denise Richards
+UPDATE housewives SET image = '/housewives/hw-32.webp' WHERE id = 32; -- Cary Deuber
+UPDATE housewives SET image = '/housewives/hw-37.webp' WHERE id = 37; -- D'Andra Simmons
+UPDATE housewives SET image = '/housewives/hw-38.webp' WHERE id = 38; -- Kameron Westcott
+UPDATE housewives SET image = '/housewives/hw-39.webp' WHERE id = 39; -- Kary Brittingham
+UPDATE housewives SET image = '/housewives/hw-41.webp' WHERE id = 41; -- Lynda Erikiletian
+UPDATE housewives SET image = '/housewives/hw-43.webp' WHERE id = 43; -- Michaele Salahi
+UPDATE housewives SET image = '/housewives/hw-46.webp' WHERE id = 46; -- Adriana de Moura
+UPDATE housewives SET image = '/housewives/hw-61.webp' WHERE id = 61; -- Kathy Wakile
+UPDATE housewives SET image = '/housewives/hw-65.webp' WHERE id = 65; -- Dolores Catania
+UPDATE housewives SET image = '/housewives/hw-67.webp' WHERE id = 67; -- Margaret Josephs
+UPDATE housewives SET image = '/housewives/hw-68.webp' WHERE id = 68; -- Jackie Goldschneider
+UPDATE housewives SET image = '/housewives/hw-69.webp' WHERE id = 69; -- Jennifer Aydin
+UPDATE housewives SET image = '/housewives/hw-71.webp' WHERE id = 71; -- Bethenny Frankel
+UPDATE housewives SET image = '/housewives/hw-75.webp' WHERE id = 75; -- Kelly Bensimon
+UPDATE housewives SET image = '/housewives/hw-84.webp' WHERE id = 84; -- Tinsley Mortimer
+UPDATE housewives SET image = '/housewives/hw-87.webp' WHERE id = 87; -- Vicki Gunvalson
+UPDATE housewives SET image = '/housewives/hw-90.webp' WHERE id = 90; -- Tammy Knickerbocker
+UPDATE housewives SET image = '/housewives/hw-91.webp' WHERE id = 91; -- Quinn Fry
+UPDATE housewives SET image = '/housewives/hw-101.webp' WHERE id = 101; -- Meghan King Edmonds
+UPDATE housewives SET image = '/housewives/hw-102.webp' WHERE id = 102; -- Kelly Dodd
+UPDATE housewives SET image = '/housewives/hw-103.webp' WHERE id = 103; -- Peggy Sulahian
+UPDATE housewives SET image = '/housewives/hw-104.webp' WHERE id = 104; -- Gina Kirschenheiter
+UPDATE housewives SET image = '/housewives/hw-105.webp' WHERE id = 105; -- Emily Simpson
+UPDATE housewives SET image = '/housewives/hw-106.webp' WHERE id = 106; -- Braunwyn Windham-Burke
+UPDATE housewives SET image = '/housewives/hw-113.webp' WHERE id = 113; -- Monique Samuels
+UPDATE housewives SET image = '/housewives/hw-114.webp' WHERE id = 114; -- Candiace Dillard
+UPDATE housewives SET image = '/housewives/hw-42.webp' WHERE id = 42; -- Mary Amons
+UPDATE housewives SET image = '/housewives/hw-44.webp' WHERE id = 44; -- Stacie Turner
+UPDATE housewives SET image = '/housewives/hw-48.webp' WHERE id = 48; -- Alexia Echevarria
+UPDATE housewives SET image = '/housewives/hw-50.png' WHERE id = 50; -- Cristy Rice
